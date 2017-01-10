@@ -17,6 +17,7 @@ class App extends React.Component {
   }
   
   loadSamples() {
+    console.log('loadsamples call');
     this.setState({
       fishes : sampleFishes
     });
