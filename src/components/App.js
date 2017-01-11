@@ -104,7 +104,7 @@ class App extends React.Component {
             {
               Object
                 .keys(this.state.fishes)
-                .map(key => <Fish removeToOrder={this.removeToOrder} addToOrder={this.addToOrder} key={key} index={key} details={this.state.fishes[key]}/>)
+                .map(key => <Fish addToOrder={this.addToOrder} key={key} index={key} details={this.state.fishes[key]}/>)
             }
           </ul>
         </div>
